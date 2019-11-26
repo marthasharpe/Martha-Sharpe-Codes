@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+}
+
+.row {
+    align-items: center;
+}
+
+.col {
+    justify-content: center;
+}
+
+.profile {
+    width: 80%;
+    border-radius: 50%;
+}

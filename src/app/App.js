@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from './../home/Home.js';
+import About from './../about/About.js';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <Home />
+      <About />
     </div>
   );
 }
