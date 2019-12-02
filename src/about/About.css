@@ -1,16 +1,14 @@
-.container {
-    height: 100vh;
-}
-
 .row {
     align-items: center;
+    height: 100vh;
+    background-color: white;
 }
 
 .col {
-    justify-content: center;
+    justify-content: center ;
 }
 
 .profile {
-    width: 80%;
+    max-width: 80%;
     border-radius: 50%;
 }
