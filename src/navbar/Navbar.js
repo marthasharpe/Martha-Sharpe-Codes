@@ -15,6 +15,8 @@ const Navigate = () => {
     <Nav>
       <Nav.Link href="#linkedin">LinkedIn</Nav.Link>
       <Nav.Link href="#github">GitHub</Nav.Link>
+      <Nav.Link href="#resume">Resume</Nav.Link>
+
     </Nav>
   </Navbar.Collapse>
 </Navbar>
