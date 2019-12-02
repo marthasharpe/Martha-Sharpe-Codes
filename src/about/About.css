@@ -1,14 +1,5 @@
-.row {
+.about-container {
     align-items: center;
     height: 100vh;
     background-color: white;
-}
-
-.col {
-    justify-content: center ;
-}
-
-.profile {
-    max-width: 500px;
-    border-radius: 50%;
 }

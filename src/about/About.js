@@ -1,16 +1,16 @@
 import React from 'react';
 import './About.css';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import pic from '../profile-pic-crop copy.jpg';
 
 const About = () => {
     return (
         <Container id="about" fluid>
-            <Row className="justify-content-center">
-                <Col sm="10" md="6" className="align-items-center">
-                    <img src={pic} className="profile" alt="profile"/>
+            <Row className="justify-content-center about-container">
+                <Col xs="10" md="6" className="align-items-center">
+                    <Image src={pic} alt="profile" roundedCircle fluid/>
                 </Col>
-                <Col sm="10" md="6" className="justify-content-center">
+                <Col xs="10" sm="8" md="6" className="justify-content-center">
                     <h2>About</h2>
                     <p>
                         I got into web development because I wanted to be challenged. I wanted to create things that would make life easier for other people. I wanted to develop a skill would be of great value to the future.
