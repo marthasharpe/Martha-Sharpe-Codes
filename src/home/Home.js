@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <Jumbotron  id="home" fluid>
+        <Jumbotron id="home" fluid>
             <div className="title-container">
                 <h1>Martha Sharpe</h1>
                 <h2>Web Developer</h2>

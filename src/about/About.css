@@ -1,5 +1,9 @@
 .about-container {
-    align-items: center;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(200, 200, 200);
+    padding-top: 60px;
+}
+
+.about-col {
+    min-width: 250px;
 }

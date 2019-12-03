@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { Navbar, Nav } from 'react-bootstrap';
+import resume from '../Martha Sharpe Resume.pdf';
 
 const Navigate = () => {
     return (
@@ -13,9 +14,9 @@ const Navigate = () => {
       <Nav.Link href="#projects">Projects</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#linkedin">LinkedIn</Nav.Link>
-      <Nav.Link href="#github">GitHub</Nav.Link>
-      <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/marthasharpe2020/" target="_blank">LinkedIn</Nav.Link>
+      <Nav.Link href="https://github.com/marthasharpe" target="_blank">GitHub</Nav.Link>
+      <Nav.Link href={resume} target="_blank">Resumé</Nav.Link>
 
     </Nav>
   </Navbar.Collapse>
