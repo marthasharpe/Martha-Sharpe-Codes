@@ -27,12 +27,12 @@ const CardCarousel = (props) => {
     const projectCards = props.data.map(project => {
         return (
             <Card style={{ width: '18rem' }} key={project.title}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <iframe class="video" src={project.image} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>
-                    <Card.Link href="#">GitHub</Card.Link>
-                    <Card.Link href="#">Netlify</Card.Link>
+                    <Card.Link href={project.github} target="_blank">GitHub</Card.Link>
+                    <Card.Link href={project.netlify} target="_blank">Netlify</Card.Link>
                 </Card.Body>
             </Card>
         )  
