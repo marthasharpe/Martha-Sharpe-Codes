@@ -6,7 +6,7 @@ export const projectData = [
         netlify: "https://stan-lee-tribute-page.netlify.com/",
         github: "https://github.com/marthasharpe/Stan-Lee-Tribute-Page",
         date: 4.1,
-        technology: ["HTML/CSS"],
+        technology: [],
     },
     {
         title: "Bartending Game",
@@ -33,7 +33,7 @@ export const projectData = [
         netlify: "https://react-pomodoro-clock.netlify.com",
         github: "https://github.com/marthasharpe/react-pomodoro-clock",
         date: 7.1,
-        technologies: ["React"],
+        technology: ["React"],
     },
     {
         title: "Redux Pomodoro Clock",
@@ -42,7 +42,7 @@ export const projectData = [
         netlify: "https://react-pomodoro-clock.netlify.com",
         github: "https://github.com/marthasharpe/redux-practice-app",
         date: 7.2,
-        technologies: ["React"],
+        technology: ["React", "Redux"],
     },
     {
         title: "Random Joke App",
@@ -51,7 +51,7 @@ export const projectData = [
         netlify: "https://getjokes.netlify.com",
         github: "https://github.com/marthasharpe/random-quote-machine",
         date: 8.1,
-        technologies: ["React"],
+        technology: ["React"],
     },
     {
         title: "Pig Latin Translator",
@@ -59,7 +59,16 @@ export const projectData = [
         description: "Learned how RESTful APIs are made and how to handle errors. Also put my regular expression skills to good use!",
         netlify: "https://pig-latin-translator.netlify.com/",
         github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
-        date: 8.2,
-        technologies: ["React"],
+        date: 9.1,
+        technology: ["React"],
+    },
+    {
+        title: "Hangémon",
+        image: "https://www.youtube.com/embed/s3mlI2ZdhTs",
+        description: "I created a hangman game using the Pokémon API. Getting the hang of using Redux to manage state.",
+        netlify: "https://hangemon.netlify.com/",
+        github: "https://github.com/marthasharpe/hang-pokemon",
+        date: 10.1,
+        technology: ["React", "Redux"],
     },
 ]

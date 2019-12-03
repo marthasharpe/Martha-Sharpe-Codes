@@ -27,7 +27,7 @@ const CardCarousel = (props) => {
     const projectCards = props.data.map(project => {
         return (
             <Card style={{ width: '18rem' }} key={project.title}>
-                <iframe class="video" src={project.image} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="video" src={project.image} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>

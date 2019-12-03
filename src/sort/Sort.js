@@ -12,16 +12,42 @@ const Sort = () => {
             <h2 className="title">My Projects</h2>
             <Row>
                 <ButtonGroup>
-                    <Button variant="dark">All Projects</Button>
-                    <DropdownButton  variant="dark" as={ButtonGroup} title="Technology" id="bg-nested-dropdown">
-                        <Dropdown.Item eventKey="1">React</Dropdown.Item>
-                        <Dropdown.Item eventKey="2">Redux</Dropdown.Item>
-                        <Dropdown.Item eventKey="3">JavaScript</Dropdown.Item>
-                        <Dropdown.Item eventKey="4">HTML/CSS</Dropdown.Item>
+                    <Button variant="dark"
+                        onClick={() => setData(projectData)}
+                        >
+                        All Projects
+                    </Button>
+                    
+                    <DropdownButton variant="dark" as={ButtonGroup} title="Filter" id="bg-nested-dropdown">
+                        <Dropdown.Item
+                            onClick={() => setData(projectData.filter(project => project.technology.includes("React")))}
+                            >
+                            React
+                            </Dropdown.Item>
+                        <Dropdown.Item
+                            onClick={() => setData(projectData.filter(project => project.technology.includes("Redux")))}       >
+                            Redux
+                            </Dropdown.Item>
+                        <Dropdown.Item 
+                            onClick={() => setData(projectData.filter(project => project.technology.includes("JavaScript")))}  >
+                            JavaScript
+                            </Dropdown.Item>
+                        <Dropdown.Item 
+                            onClick={() => setData(projectData.filter(project => project.technology.includes("Bootstrap")))}   >
+                            Bootstrap
+                            </Dropdown.Item>
                     </DropdownButton>
-                    <DropdownButton  variant="dark" as={ButtonGroup} title="Date" id="bg-nested-dropdown">
-                        <Dropdown.Item eventKey="1">newest - oldest</Dropdown.Item>
-                        <Dropdown.Item eventKey="2">oldest - newest</Dropdown.Item>
+                    <DropdownButton  variant="dark" as={ButtonGroup} title="Sort" id="bg-nested-dropdown">
+                        <Dropdown.Item
+                            onClick={() => setData(data.slice().sort(( a, b ) => a.date > b.date ? 1 : -1))}
+                            >
+                            oldest - newest
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                            onClick={() => setData(data.slice().sort(( a, b ) => a.date > b.date ? -1 : 1))}
+                            >
+                            newest - oldest
+                        </Dropdown.Item>
                     </DropdownButton>
                 </ButtonGroup>
             </Row>
