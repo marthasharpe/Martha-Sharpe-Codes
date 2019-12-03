@@ -1,9 +1,9 @@
 .about-container {
-    height: 100vh;
     background-color: rgb(200, 200, 200);
-    padding-top: 60px;
+    padding: 50px;
 }
 
 .about-col {
     min-width: 250px;
+    max-width: 400px;
 }

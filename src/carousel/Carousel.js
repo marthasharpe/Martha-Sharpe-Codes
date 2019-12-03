@@ -5,29 +5,34 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
  
 const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    slidesToSlide: 3, // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-    slidesToSlide: 2, // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-    slidesToSlide: 1, // optional, default to 1.
-  },
+    desktop: {
+        breakpoint: { max: 3000, min: 1360 },
+        items: 4,
+        slidesToSlide: 4, // optional, default to 1.
+    },
+    laptop: {
+        breakpoint: { max: 1360, min: 980 },
+        items: 3,
+        slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+        breakpoint: { max: 980, min: 640 },
+        items: 2,
+        slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+        breakpoint: { max: 640, min: 0 },
+        items: 1,
+        slidesToSlide: 1, // optional, default to 1.
+    },
 };
 
 const CardCarousel = (props) => {
 
     const projectCards = props.data.map(project => {
         return (
-            <Card style={{ width: '18rem' }} key={project.title}>
-                <iframe className="video" src={project.image} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <Card style={{ width: 300 }} key={project.title}>
+                <iframe className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>

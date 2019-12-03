@@ -1,6 +1,7 @@
 .projects-container {
     height: 100vh;
-    padding-top: 60px;
+    padding: 50px;
+    background-color: rgb(20, 20, 20);
 }
 
 .title {

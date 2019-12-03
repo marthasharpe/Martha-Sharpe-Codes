@@ -1,6 +1,6 @@
 .jumbotron {
-    height: 100vh;
     color: white;
+    margin: 0 !important;
     background-color: rgb(20, 20, 20) !important;
 }
 
