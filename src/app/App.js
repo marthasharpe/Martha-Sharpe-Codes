@@ -8,8 +8,8 @@ import Sort from './../sort/Sort.js';
 const App = () => {
   return (
     <div className="App">
-      <Home />
       <Navigate />
+      <Home />
       <About />
       <Sort />
     </div>

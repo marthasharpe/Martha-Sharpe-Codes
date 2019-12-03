@@ -31,13 +31,13 @@ const CardCarousel = (props) => {
 
     const projectCards = props.data.map(project => {
         return (
-            <Card style={{ width: 300 }} key={project.title}>
-                <iframe className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <Card style={{ width: 280, height: 400 }} key={project.title}>
+                <iframe title={project.title} className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
-                    <Card.Text>{project.description}</Card.Text>
-                    <Card.Link href={project.github} target="_blank">GitHub</Card.Link>
-                    <Card.Link href={project.netlify} target="_blank">Netlify</Card.Link>
+                    <Card.Text>{project.description}</Card.Text>   
+                    <Card.Link href={project.github} target="_blank">GitHub Repo</Card.Link>
+                    <Card.Link href={project.netlify} target="_blank">Live Demo</Card.Link>
                 </Card.Body>
             </Card>
         )  

@@ -1,9 +1,4 @@
 .about-container {
     background-color: rgb(200, 200, 200);
-    padding: 50px;
-}
-
-.about-col {
-    min-width: 250px;
-    max-width: 400px;
+    padding: 60px;
 }

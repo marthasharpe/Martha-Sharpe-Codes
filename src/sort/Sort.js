@@ -10,13 +10,12 @@ const Sort = () => {
     return (
         <Container id="projects" className="projects-container" fluid>
             <h2 className="title">My Projects</h2>
-            <ButtonGroup>
+            <ButtonGroup style={{ margin: "20px 0px"}}>
                 <Button variant="dark"
                     onClick={() => setData(projectData)}
                     >
                     All Projects
-                </Button>
-                
+                </Button>                
                 <DropdownButton variant="dark" as={ButtonGroup} title="Filter" id="bg-nested-dropdown">
                     <Dropdown.Item
                         onClick={() => setData(projectData.filter(project => project.technology.includes("React")))}

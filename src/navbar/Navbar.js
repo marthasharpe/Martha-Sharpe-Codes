@@ -6,7 +6,7 @@ import resume from '../Martha Sharpe Resume.pdf';
 const Navigate = () => {
     return (
 <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">MarthaSharpeCodes</Navbar.Brand>
+  <Navbar.Brand href="#home">Martha Sharpe</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="justify-content-end mr-auto">
