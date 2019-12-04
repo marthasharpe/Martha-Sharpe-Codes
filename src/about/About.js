@@ -6,13 +6,13 @@ const About = () => {
     return (
         <Container id="about" fluid>
             <Row className="about-container align-items-center">
-                <Col>
+                <Col md={{ span: 3, offset: 2 }}>
                     <h2>About</h2>
                     <p>
-                        I enjoy web development because I like being challenged on a daily basis. I am excited to work on a team, creating amazing products that will help people and build an awesome future!
+                        I got into web development because I love being challenged on a daily basis. I enjoy being part of a team, building amazing products that will improve people's lives and create an awesome future!
                     </p>
                 </Col>
-                <Col>
+                <Col md={{ span: 3, offset: 2 }}>
                     <h2>Skills</h2>
                     <ul>
                         <li>ES6 JavaScript</li>
