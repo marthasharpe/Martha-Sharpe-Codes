@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Image } from 'react-bootstrap';
 import './Home.css';
-import pic from '../profile-pic-crop copy.jpg';
+import pic from '../profile-pic-crop.jpg';
 
 const Home = () => {
     return (

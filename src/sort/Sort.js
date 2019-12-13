@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import './Sort.css';
 import { Container, Dropdown, DropdownButton, Button, ButtonGroup } from 'react-bootstrap';
-import CardCarousel from './../carousel/Carousel.js';
 import { projectData } from '../projectData.js';
+const CardCarousel = lazy(() => import("./../carousel/Carousel.js"));
+
 
 const Sort = () => {
     const [ data, setData ] = useState(projectData);
@@ -48,7 +49,9 @@ const Sort = () => {
                     </Dropdown.Item>
                 </DropdownButton>
             </ButtonGroup>
-            <CardCarousel data={data}/>
+            <Suspense fallback={<div>Loading...</div>}>
+                <CardCarousel data={data}/>
+            </Suspense>
         </Container>
     )
 }
