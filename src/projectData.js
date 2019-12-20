@@ -98,4 +98,13 @@ export const projectData = [
         date: 11.2,
         technology: ["React", "Bootstrap"],
     },
+    {
+        title: "The Form of Death",
+        image: "https://www.youtube-nocookie.com/embed/ZWJQVfQ9oeA",
+        description: "This project gave me some practice working with step-forms in React. Also learned some Material-UI for the styling.",
+        netlify: "https://form-of-death.netlify.com/",
+        github: "https://github.com/marthasharpe/react-form",
+        date: 12.1,
+        technology: ["React", "Bootstrap"],
+    },
 ]
