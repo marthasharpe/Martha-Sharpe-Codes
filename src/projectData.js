@@ -16,6 +16,7 @@ export const projectData = [
         github: "https://github.com/marthasharpe/Bartending-Game",
         date: 5.1,
         technology: ["JavaScript"],
+        featured: true
     },
     {
         title: "React Calculator",
@@ -25,6 +26,7 @@ export const projectData = [
         github: "https://github.com/marthasharpe/react-calculator",
         date: 6.1,
         technology: ["React"],
+        featured: true
     },
     {
         title: "React Drum Kit",
@@ -70,6 +72,7 @@ export const projectData = [
         github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
         date: 9.1,
         technology: ["React"],
+        featured: true
     },
     {
         title: "Hangémon",
@@ -79,6 +82,7 @@ export const projectData = [
         github: "https://github.com/marthasharpe/hang-pokemon",
         date: 10.1,
         technology: ["React", "Redux"],
+        featured: true
     },
     {
         title: "Sorted Card Carousel",

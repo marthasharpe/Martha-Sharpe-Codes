@@ -1,0 +1,16 @@
+.featured-container {
+    padding-top: 80px;
+    background-color: rgb(101, 101, 101);
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
