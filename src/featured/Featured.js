@@ -9,8 +9,8 @@ const Featured = () => {
 
     const projectCards = featuredProjects.map(project => {
         return (
-            <Col className="card-container">
-                <Card style={{ width: 280, height: 400 }} key={project.title}>
+            <Col className="card-container" key={project.title}>
+                <Card style={{ width: 280, height: 400 }}>
                     <iframe title={project.title} className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <Card.Body>
                         <Card.Title>{project.title}</Card.Title>
