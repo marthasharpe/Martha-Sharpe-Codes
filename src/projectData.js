@@ -26,17 +26,16 @@ export const projectData = [
         github: "https://github.com/marthasharpe/react-calculator",
         date: 6.1,
         technology: ["React"],
-        featured: true
     },
-    {
-        title: "React Drum Kit",
-        image: "https://www.youtube-nocookie.com/embed/PjTAL3Ja3a0",
-        description: "Tackled lifecycle methods in React for this project, working with event listeners, refs, and transitions.",
-        netlify: "https://react-drumset.netlify.com/",
-        github: "https://github.com/marthasharpe/React-Drum-Set",
-        date: 6.2,
-        technology: ["React"],
-    },
+    // {
+    //     title: "React Drum Kit",
+    //     image: "https://www.youtube-nocookie.com/embed/PjTAL3Ja3a0",
+    //     description: "Tackled lifecycle methods in React for this project, working with event listeners, refs, and transitions.",
+    //     netlify: "https://react-drumset.netlify.com/",
+    //     github: "https://github.com/marthasharpe/React-Drum-Set",
+    //     date: 6.2,
+    //     technology: ["React"],
+    // },
     {
         title: "React Pomodoro Clock",
         image: "https://www.youtube-nocookie.com/embed/kEk-CObPIIk",
@@ -45,6 +44,7 @@ export const projectData = [
         github: "https://github.com/marthasharpe/react-pomodoro-clock",
         date: 7.1,
         technology: ["React"],
+        featured: true
     },
     {
         title: "Redux Pomodoro Clock",
@@ -72,7 +72,6 @@ export const projectData = [
         github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
         date: 9.1,
         technology: ["React"],
-        featured: true
     },
     {
         title: "Hangémon",
@@ -81,7 +80,7 @@ export const projectData = [
         netlify: "https://hangemon.netlify.com/",
         github: "https://github.com/marthasharpe/hang-pokemon",
         date: 10.1,
-        technology: ["React", "Redux"],
+        technology: ["React", "Redux", "Bootstrap"],
         featured: true
     },
     {
