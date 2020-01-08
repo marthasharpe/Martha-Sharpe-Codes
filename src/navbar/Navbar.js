@@ -2,11 +2,20 @@ import React from 'react';
 import './Navbar.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import resume from '../Martha Sharpe Resume.pdf';
+import logo from '../logo.png';
 
 const Navigate = () => {
     return (
       <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Martha Sharpe</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src={logo}
+            width="40"
+            height="40"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end mr-auto">
