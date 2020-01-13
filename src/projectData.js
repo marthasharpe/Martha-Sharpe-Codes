@@ -44,7 +44,6 @@ export const projectData = [
         github: "https://github.com/marthasharpe/react-pomodoro-clock",
         date: 7.1,
         technology: ["React"],
-        featured: true
     },
     {
         title: "Redux Pomodoro Clock",
@@ -66,17 +65,18 @@ export const projectData = [
     },
     {
         title: "Pig Latin Translator",
-        image: "https://www.youtube-nocookie.com/embed/Y2_1YDRGlVI",
-        description: "Learned how RESTful APIs are made and how to handle errors. Also put my regular expression skills to good use!",
+        image: "https://www.youtube-nocookie.com/embed/XXYCSKrTYt4",
+        description: "Put my regular expressions skills to good use and got some great practice using algorithms to handle edge cases.",
         netlify: "https://pig-latin-translator.netlify.com/",
         github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
         date: 9.1,
         technology: ["React"],
+        featured: true
     },
     {
         title: "Hangémon",
-        image: "https://www.youtube-nocookie.com/embed/s3mlI2ZdhTs",
-        description: "Created a hangman game using the Pokémon API. Definitely getting the hang of using Redux to manage state.",
+        image: "https://www.youtube-nocookie.com/embed/IaLdSdVeCec",
+        description: "Created a hangman game using the Pokémon API. Used Redux to manage state and React-Bootstrap for styling.",
         netlify: "https://hangemon.netlify.com/",
         github: "https://github.com/marthasharpe/hang-pokemon",
         date: 10.1,
