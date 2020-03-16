@@ -1,3 +1,30 @@
+export const featuredProjects = [
+    // {
+    //     title: "MySchool: Full-Stack Web App",
+    //     image: "https://www.youtube-nocookie.com/embed/eR6Su2uIC8o",
+    //     description: "A website for saving online learning resources. Built a REST API using Node, Express, and MongoDB with Mongoose schemas. Implemented user login with password encryption and JWT authentication. Client-side is a basic CRUD application built with React. Used Redux for state management and redux-thunk for asynchronous API calls. Also used React-Router-DOM for dynamic routing and React-Bootstrap for styling.",
+    //     date: "March 2020",
+    //     netlify: "https://my-school.netlify.com/",
+    //     github: "https://github.com/marthasharpe/MySchool-front",
+    // },
+    {
+        title: "Hangémon: React-Redux Game",
+        image: "https://www.youtube-nocookie.com/embed/IaLdSdVeCec",
+        description: "Created a hangman game fetching data from the open-source Pokémon API. Used Redux-Thunk for the asynchronous API call. Mobile-first design using React-Bootstrap. Learned to control all aspects of the UI using Redux state.",
+        date: "November 2019",
+        netlify: "https://hangemon.netlify.com/",
+        github: "https://github.com/marthasharpe/hang-pokemon",
+    },
+    {
+        title: "MixMaster: JavaScript Game",
+        image: "https://www.youtube-nocookie.com/embed/zLNYzg27QPk",
+        description: "A game to learn to mix cocktails. Original concept and design from my bartending days. I wrote this from scratch using ES6 JavaScript and styled it with CSS grid and flexbox. Used an object-oriented approach by creating a Drink class constructor.",
+        date: "August 2019",
+        netlify: "https://bartending-game.netlify.com/",
+        github: "https://github.com/marthasharpe/Bartending-Game",
+    },
+]
+
 export const projectData = [
     {
         title: "Stan Lee Tribute",
@@ -16,7 +43,6 @@ export const projectData = [
         github: "https://github.com/marthasharpe/Bartending-Game",
         date: 5.1,
         technology: ["JavaScript"],
-        featured: true
     },
     {
         title: "React Calculator",
@@ -27,15 +53,15 @@ export const projectData = [
         date: 6.1,
         technology: ["React"],
     },
-    // {
-    //     title: "React Drum Kit",
-    //     image: "https://www.youtube-nocookie.com/embed/PjTAL3Ja3a0",
-    //     description: "Tackled lifecycle methods in React for this project, working with event listeners, refs, and transitions.",
-    //     netlify: "https://react-drumset.netlify.com/",
-    //     github: "https://github.com/marthasharpe/React-Drum-Set",
-    //     date: 6.2,
-    //     technology: ["React"],
-    // },
+    {
+        title: "React Drum Kit",
+        image: "https://www.youtube-nocookie.com/embed/PjTAL3Ja3a0",
+        description: "Tackled lifecycle methods in React for this project, working with event listeners, refs, and transitions.",
+        netlify: "https://react-drumset.netlify.com/",
+        github: "https://github.com/marthasharpe/React-Drum-Set",
+        date: 6.2,
+        technology: ["React"],
+    },
     {
         title: "React Pomodoro Clock",
         image: "https://www.youtube-nocookie.com/embed/kEk-CObPIIk",
@@ -71,7 +97,6 @@ export const projectData = [
         github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
         date: 9.1,
         technology: ["React"],
-        featured: true
     },
     {
         title: "Hangémon",

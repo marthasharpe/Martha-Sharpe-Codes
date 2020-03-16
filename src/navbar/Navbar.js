@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import resume from '../MarthaSharpe Resume.pdf';
+import { Navbar, Nav } from 'react-bootstrap';
+import resume from '../Martha-Sharpe-Resume.pdf';
 import logo from '../logo.png';
 
 const Navigate = () => {
@@ -20,10 +20,7 @@ const Navigate = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end mr-auto">
             <Nav.Link href="#about">About</Nav.Link>
-            <NavDropdown title="Projects" id="projects-dropdown">
-              <NavDropdown.Item href="#featured">Featured</NavDropdown.Item>
-              <NavDropdown.Item href="#projects">All Projects</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/marthasharpe2020/" target="_blank">LinkedIn</Nav.Link>

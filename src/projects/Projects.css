@@ -1,6 +1,6 @@
-.featured-container {
+.projects-container {
     padding-top: 80px;
-    background-color: rgb(101, 101, 101);
+    background-color: rgb(20, 20, 20);
 }
 
 .title {
@@ -9,6 +9,8 @@
     margin-bottom: 3rem;
 }
 
-.featured-card {
+.card-container {
+    display: flex;
+    justify-content: center;
     margin-bottom: 3rem;
 }

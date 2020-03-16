@@ -1,5 +1,9 @@
 .about-container {
     background-color: white;
     color: rgb(20, 20, 20);
-    padding: 60px;
+    padding: 4rem;
+}
+
+.about-col {
+    margin-top: 3rem;
 }
