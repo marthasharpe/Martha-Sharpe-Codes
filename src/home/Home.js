@@ -9,7 +9,7 @@ const Home = () => {
             <div className="title-container">
                 <Image style={{width: 300, marginBottom: 20}} src={pic} className="profile" alt="profile" roundedCircle fluid/>
                 <h1>Martha Sharpe</h1>
-                <h3>Software Engineer</h3>
+                <h3>Web Developer</h3>
             </div>
         </Jumbotron>
     )
