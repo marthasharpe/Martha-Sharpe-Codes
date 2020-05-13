@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { Navbar, Nav } from 'react-bootstrap';
-import resume from '../Martha-Sharpe-Web.pdf';
+import resume from '../Martha-Sharpe-Resume.pdf';
 import logo from '../logo.png';
 
 const Navigate = () => {
