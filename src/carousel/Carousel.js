@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, ResponsiveEmbed } from 'react-bootstrap';
 import './Carousel.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -31,8 +31,10 @@ const CardCarousel = (props) => {
 
     const projectCards = props.data.map(project => {
         return (
-            <Card style={{ width: 280, height: 400 }} key={project.title}>
-                <iframe title={project.title} className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <Card style={{ maxWidth: 400, height: 'auto' }} key={project.title}>
+                <ResponsiveEmbed aspectRatio="16by9">
+                    <iframe title={project.title} className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </ResponsiveEmbed>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>   

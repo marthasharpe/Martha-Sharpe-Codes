@@ -3,8 +3,8 @@ import './App.css';
 import Home from './../home/Home.js';
 import About from './../about/About.js';
 import Navigate from './../navbar/Navbar.js';
-import Projects from '../projects/Projects';
 import Featured from '../featured/Featured';
+import Sort from '../sort/Sort';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Home />
       <About />
       <Featured />
-      <Projects />
+      <Sort />
     </div>
   );
 }
