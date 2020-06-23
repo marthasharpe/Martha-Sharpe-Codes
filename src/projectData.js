@@ -1,42 +1,24 @@
-export const featuredProjects = [
+export const projectData = [
     {
         title: "MySchool: Full-Stack Web App",
         image: "https://www.youtube-nocookie.com/embed/eR6Su2uIC8o?rel=0",
-        description: "A website for saving online learning resources. Built a REST API using Node, Express, and MongoDB with Mongoose schemas. Implemented user login with password encryption and JWT authentication. Client-side is a basic CRUD application built with React. Used Redux for state management and redux-thunk for asynchronous API calls. Also used React-Router-DOM for dynamic routing and React-Bootstrap for styling.",
+        description: "A website for saving online learning resources. Built a REST API using Node, Express, and MongoDB with Mongoose schemas. Implemented user login with password encryption and JWT authentication. Client-side is built with React. Used Redux for state management and redux-thunk with Axios for API calls. Also includes dynamic routing with React-Router-DOM and React-Bootstrap components.",
         date: "March 2020",
         netlify: "https://my-school.netlify.com/",
         github: "https://github.com/marthasharpe/MySchool-front",
     },
     {
-        title: "Hangémon: React-Redux Game",
+        title: "Hangémon: a Guessing Game",
         image: "https://www.youtube-nocookie.com/embed/s3mlI2ZdhTs?rel=0",
-        description: "Created a hangman game fetching data from the open-source Pokémon API. Used Redux-Thunk for the asynchronous API call. Mobile-first design using React-Bootstrap. Learned to control all aspects of the UI using Redux state. After the video, I refactored my code to follow React best-practices.",
-        date: "November 2019",
+        description: "Created a hangman game that fetches a random Pokémon from the Pokémon API. Used Redux-Thunk for the asynchronous API call. Mobile-first design using React-Bootstrap. Learned to control all aspects of the UI using Redux state.",
         netlify: "https://hangemon.netlify.com/",
         github: "https://github.com/marthasharpe/hang-pokemon",
+        date: 10.1,
+        technology: ["React", "Redux", "Bootstrap"],
+        featured: true
     },
     {
-        title: "MixMaster: JavaScript Game",
-        image: "https://www.youtube-nocookie.com/embed/zLNYzg27QPk?rel=0",
-        description: "A game to learn to mix cocktails. Original concept and design from my bartending days. I wrote this from scratch using ES6 JavaScript and styled it with CSS grid and flexbox. Used an object-oriented approach by creating a Drink class constructor. This was my first time dynamically populating HTML using JavaScript.",
-        date: "August 2019",
-        netlify: "https://bartending-game.netlify.com/",
-        github: "https://github.com/marthasharpe/Bartending-Game",
-    },
-]
-
-export const projectData = [
-    {
-        title: "Stan Lee Tribute",
-        image: "https://www.youtube-nocookie.com/embed/jbZuNXhKoWw?rel=0",
-        description: "My first project ever! I built this webpage using HTML and CSS for the freeCodeCamp Responsive Web Design Certification. Learned the importance of mobile-first design.",
-        netlify: "https://stan-lee-tribute-page.netlify.com/",
-        github: "https://github.com/marthasharpe/Stan-Lee-Tribute-Page",
-        date: 4.1,
-        technology: [],
-    },
-    {
-        title: "Bartending Game",
+        title: "JavaScript Bartending Game",
         image: "https://www.youtube-nocookie.com/embed/zLNYzg27QPk?rel=0",
         description: "A game to learn to mix cocktails. Original concept and design from my bartending days. Written from scratch using ES6 JavaScript. Styled with CSS grid and flexbox. Used an object-oriented approach by creating a Drink class constructor. This was my first time dynamically populating HTML using JavaScript.",
         netlify: "https://bartending-game.netlify.com/",
@@ -44,6 +26,43 @@ export const projectData = [
         date: 5.1,
         technology: ["JavaScript"],
     },
+    {
+        title: "Portfolio Page Remake",
+        image: "https://www.youtube-nocookie.com/embed/PbVEyLqZmI8?rel=0",
+        description: "My original portfolio page was HTML and CSS. I finally remade it using React and React-Bootstrap. Implemented a card-carousel for my projects and demo videos. Projects may be sorted by date or filtered by technology.",
+        netlify: "https://marthasharpe.netlify.com/",
+        github: "https://github.com/marthasharpe/Martha-Sharpe-Codes",
+        date: 11.2,
+        technology: ["React", "Bootstrap"],
+    },
+    {
+        title: "Pig Latin Translator: Regex Practice",
+        image: "https://www.youtube-nocookie.com/embed/Y2_1YDRGlVI?rel=0",
+        description: "An app to translate inspirational quotes into Pig Latin. Put my regular expressions skills to good use. I also got some great practice using algorithms to handle edge cases.",
+        netlify: "https://pig-latin-translator.netlify.com/",
+        github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
+        date: 9.1,
+        technology: ["React"],
+    },
+    {
+        title: "Random Joke App: API Practice",
+        image: "https://www.youtube-nocookie.com/embed/pTvgmmzq67s?rel=0",
+        description: "Learned about APIs and using fetch() to make API calls. Found an open-source API that generates random programming jokes. I deployed this app to Netlify for for the first time for all to enjoy!",
+        netlify: "https://getjokes.netlify.com",
+        github: "https://github.com/marthasharpe/random-quote-machine",
+        date: 8.1,
+        technology: ["React"],
+    },
+    {
+        title: "Responsive Design with Stan Lee",
+        image: "https://www.youtube-nocookie.com/embed/jbZuNXhKoWw?rel=0",
+        description: "My first project ever! I built this webpage using HTML and CSS for the freeCodeCamp Responsive Web Design Certification. Learned the importance of mobile-first design.",
+        netlify: "https://stan-lee-tribute-page.netlify.com/",
+        github: "https://github.com/marthasharpe/Stan-Lee-Tribute-Page",
+        date: 4.1,
+        technology: [],
+    },
+
     {
         title: "React Calculator",
         image: "https://www.youtube-nocookie.com/embed/zdhsM7_njvM?rel=0",
@@ -71,41 +90,6 @@ export const projectData = [
         date: 7.2,
         technology: ["React", "Redux"],
     },
-    {
-        title: "Random Joke App",
-        image: "https://www.youtube-nocookie.com/embed/pTvgmmzq67s?rel=0",
-        description: "Learned about APIs and using fetch() to make API calls. Found an open-source API that generates random programming jokes. I deployed this app to Netlify for for the first time for all to enjoy!",
-        netlify: "https://getjokes.netlify.com",
-        github: "https://github.com/marthasharpe/random-quote-machine",
-        date: 8.1,
-        technology: ["React"],
-    },
-    {
-        title: "Pig Latin Translator",
-        image: "https://www.youtube-nocookie.com/embed/Y2_1YDRGlVI?rel=0",
-        description: "An app to translate inspirational quotes into Pig Latin. Put my regular expressions skills to good use. I also got some great practice using algorithms to handle edge cases.",
-        netlify: "https://pig-latin-translator.netlify.com/",
-        github: "https://github.com/marthasharpe/Pig-Latin-Wisdom",
-        date: 9.1,
-        technology: ["React"],
-    },
-    {
-        title: "Hangémon",
-        image: "https://www.youtube-nocookie.com/embed/s3mlI2ZdhTs?rel=0",
-        description: "Created a hangman game that fetches a random Pokémon from the Pokémon API. Used Redux-Thunk for the asynchronous API call. Mobile-first design using React-Bootstrap. Learned to control all aspects of the UI using Redux state.",
-        netlify: "https://hangemon.netlify.com/",
-        github: "https://github.com/marthasharpe/hang-pokemon",
-        date: 10.1,
-        technology: ["React", "Redux", "Bootstrap"],
-        featured: true
-    },
-    {
-        title: "Portfolio Page",
-        image: "https://www.youtube-nocookie.com/embed/PbVEyLqZmI8?rel=0",
-        description: "My original portfolio page was HTML and CSS. I finally remade it using React and React-Bootstrap. Implemented a card-carousel for my projects and demo videos. Projects may be sorted by date or filtered by technology.",
-        netlify: "https://marthasharpe.netlify.com/",
-        github: "https://github.com/marthasharpe/Martha-Sharpe-Codes",
-        date: 11.2,
-        technology: ["React", "Bootstrap"],
-    }
+
+
 ]

@@ -10,6 +10,7 @@ const Sort = () => {
 
     return (
         <Container id="projects" className="projects-container" fluid>
+            <h2 className="project-title">Personal Projects</h2>
             <ButtonGroup style={{ margin: "20px 0px" }}>
                 <Button variant="dark"
                     onClick={() => setData(projectData)}
