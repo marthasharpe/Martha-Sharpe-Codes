@@ -1,7 +1,8 @@
 .about-container {
     background-color: whitesmoke;
     color: rgb(20, 20, 20);
-    padding: 4rem;
+    padding: 2rem;
+    padding-top: 4rem;
 }
 
 .about-col {

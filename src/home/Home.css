@@ -4,9 +4,23 @@
     background-color: rgb(20, 20, 20) !important;
 }
 
+.profile-pic {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
 .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.social-link {
+    color: rgb(90, 90, 90);
+    margin-top: 1rem;
+}
+
+.social-link:hover {
+    color: rgb(160, 160, 160);
 }

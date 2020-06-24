@@ -6,7 +6,7 @@ const About = () => {
     return (
         <Container id="about" fluid>
             <Row className="about-container">
-                <Col className="about-col" md={{ span: 5, offset: 1 }}>
+                <Col className="about-col" md={{ span: 7 }}>
                     <h3>About</h3>
                     <p>
                     I am a self-taught developer specializing in JavaScript, React, Redux, and React-Native. Most of my learning has been through building and deploying apps, pushing to GitHub and getting peer code reviews on LinkedIn.
@@ -16,7 +16,7 @@ const About = () => {
                     I have been continuing to learn through freelance opportunities. A Squarespace site using Mailchimp and a React-Native app for sharing videos. I look forward to working on a team that is passionate about their product.
                     </p>
                 </Col>
-                <Col className="about-col" md={{ span: 5, offset: 1 }}>
+                <Col className="about-col" md={{ span: 4, offset: 1 }}>
                     <h3>Skills</h3>
                     <ul>
                         <li>Primary Experience:</li>

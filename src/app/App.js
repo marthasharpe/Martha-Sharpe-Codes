@@ -8,7 +8,7 @@ import Sort from '../sort/Sort';
 
 const App = () => {
   return (
-    <div className="App">
+    <div id="App" className="App">
       <Navigate />
       <Home />
       <About />
