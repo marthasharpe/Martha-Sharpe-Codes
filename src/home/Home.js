@@ -9,9 +9,9 @@ const Home = () => {
     return (
         <Jumbotron id="home" fluid>
             <div className="title-container">
-                <Image src={pic} className="profile-pic" alt="profile" roundedCircle fluid/>
                 <h1>Martha Sharpe</h1>
-                <h4>Software Developer</h4>
+                <Image src={pic} className="profile-pic" alt="profile" roundedCircle fluid/>
+                <h2>Software Developer</h2>
                 <Nav>
                   <Nav.Link href="https://www.linkedin.com/in/marthasharpe2020/" target="_blank">
                     <FontAwesome name="linkedin" size="2x" className="social-link"/>
