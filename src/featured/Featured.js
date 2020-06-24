@@ -4,8 +4,8 @@ import './Featured.css';
 
 const Featured = () => {
     return (
-        <Container id="projects" className="featured-container" fluid>
-            <h2 className="title">Freelance Projects</h2>
+        <Container id="freelance" className="featured-container" fluid>
+            <h2 className="title">Freelance Work</h2>
             <Row className="justify-content-md-center">
             {/* <Col md="6">
                     <Card className="featured-card">
