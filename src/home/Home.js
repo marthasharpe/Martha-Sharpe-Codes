@@ -1,8 +1,8 @@
 import React from 'react';
-import { Jumbotron, Image, Nav } from 'react-bootstrap';
-import './Home.css';
+import { Image, Jumbotron, Nav } from 'react-bootstrap';
+import FontAwesome from 'react-fontawesome';
 import pic from '../profile-pic-crop.jpg';
-import FontAwesome from 'react-fontawesome'
+import './Home.css';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
             <div className="title-container">
                 <Image src={pic} className="profile-pic" alt="profile" roundedCircle fluid/>
                 <h1>Martha Sharpe</h1>
-                <h3>Software Developer</h3>
+                <h3>Software Engineer</h3>
                 <Nav>
                   <Nav.Link href="https://www.linkedin.com/in/marthasharpe2020/" target="_blank">
                     <FontAwesome name="linkedin" size="2x" className="social-link"/>

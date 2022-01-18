@@ -1,12 +1,22 @@
 export const projectData = [
     {
+        title: "React-Native Video Sharing App",
+        image: "https://www.youtube-nocookie.com/embed/kXh8uU8IhQw?rel=0",
+        description: "A mobile app for recording and sharing videos on iOS and Android. Built for a client using React-Native and Expo. Implemented auto-login, pull to refresh, camera orientation, and upload to AWS.",
+        date: "June 2020",
+        technology: ["React Native"],
+        testimony: "\"Martha is an excellent developer, she worked to my specification on an MVP for a Pitchdrop Mobile application and I was very happy with the results. Her work was timely and the code produced was of a high quality. Her communication is very clear. I wouldn't hesitate to recommend her to others or to work with her again.\" - Callam Delaney, Pitchdrop",
+        featured: true
+    },
+    {
         title: "MySchool: Full-Stack Web App",
         image: "https://www.youtube-nocookie.com/embed/eR6Su2uIC8o?rel=0",
-        description: "A website for saving online learning resources. Built a REST API using Node, Express, and MongoDB with Mongoose schemas. Implemented user login with password encryption and JWT authentication. Client-side is built with React. Used Redux for state management and redux-thunk with Axios for API calls. Also includes dynamic routing with React-Router-DOM and React-Bootstrap components.",
-        date: 12.1,
+        description: "A website for saving online learning resources. Built a REST API using Node, Express, and MongoDB with Mongoose schemas. Implemented user login with password encryption and JWT authentication. Client-side is built with React. Used Redux for state management and redux-thunk with Axios for API calls. Also includes dynamic routing with React-Router.",
+        date: "January 2020",
         technology: ["React", "Redux", "Bootstrap"],
         netlify: "https://my-school.netlify.com/",
         github: "https://github.com/marthasharpe/MySchool-front",
+        featured: true
     },
     {
         title: "Hangémon: a Guessing Game",
@@ -14,7 +24,7 @@ export const projectData = [
         description: "Created a hangman game that fetches a random Pokémon from the Pokémon API. Used Redux-Thunk for the asynchronous API call. Mobile-first design using React-Bootstrap. Learned to control all aspects of the UI using Redux state.",
         netlify: "https://hangemon.netlify.com/",
         github: "https://github.com/marthasharpe/hang-pokemon",
-        date: 10.1,
+        date: "October 2019",
         technology: ["React", "Redux", "Bootstrap"],
         featured: true
     },
@@ -24,8 +34,9 @@ export const projectData = [
         description: "A game to learn to mix cocktails. Original concept and design from my bartending days. Written from scratch using ES6 JavaScript. Styled with CSS grid and flexbox. Used an object-oriented approach by creating a Drink class constructor. This was my first time dynamically populating HTML using JavaScript.",
         netlify: "https://bartending-game.netlify.com/",
         github: "https://github.com/marthasharpe/Bartending-Game",
-        date: 5.1,
+        date: "August 2019",
         technology: ["JavaScript"],
+        featured: true
     },
     {
         title: "Portfolio Page Remake",

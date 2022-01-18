@@ -4,7 +4,6 @@ import Home from './../home/Home.js';
 import About from './../about/About.js';
 import Navigate from './../navbar/Navbar.js';
 import Featured from '../featured/Featured';
-import Sort from '../sort/Sort';
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
       <Home />
       <About />
       <Featured />
-      <Sort />
     </div>
   );
 }

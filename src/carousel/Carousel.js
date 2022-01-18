@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, ResponsiveEmbed } from 'react-bootstrap';
-import './Carousel.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import './Carousel.css';
  
 const responsive = {
     desktop: {
@@ -28,19 +28,22 @@ const responsive = {
 };
 
 const CardCarousel = (props) => {
-
-    const projectCards = props.data.map(project => {
+console.log(`props`, props)
+    const projectCards = props.projects.map(project => {
         return (
-            <Card style={{ maxWidth: 400, height: 'auto' }} key={project.title}>
+            <Card style={{ maxWidth: 500, height: 'auto', margin: '1rem' }} key={project.title}>
                 <ResponsiveEmbed aspectRatio="16by9">
                     <iframe title={project.title} className="video" src={project.image} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </ResponsiveEmbed>
-                <Card.Body>
+                <Card.Body style={{maxHeight: 500}}>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>   
+                    {project.testimony && <Card.Text><em>{project.testimony}</em></Card.Text>}
+                </Card.Body>
+                {project.github && <Card.Footer>
                     <Card.Link href={project.github} target="_blank">GitHub Repo</Card.Link>
                     <Card.Link href={project.netlify} target="_blank">Live Demo</Card.Link>
-                </Card.Body>
+                </Card.Footer>}
             </Card>
         )  
     })

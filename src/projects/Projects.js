@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Card, ResponsiveEmbed} from 'react-bootstrap';
-import { featuredProjects } from '../projectData.js';
+import { projectData } from '../projectData.js';
 import './Projects.css';
 
 const Projects = () => {
+    const featuredProjects = projectData.filter(project => project.featured)
 
     const projectCards = featuredProjects.map(project => {
         return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Navbar.css';
-import { Navbar, Nav } from 'react-bootstrap';
-import resume from '../Martha-Sharpe-Resume.pdf';
+import { Nav, Navbar } from 'react-bootstrap';
 import logo from '../logo.png';
+import resume from '../martha-sharpe-resume.pdf';
+import './Navbar.css';
 
 const Navigate = () => {
     return (
@@ -20,8 +20,7 @@ const Navigate = () => {
         <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-end">
           <Nav>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#freelance">Freelance</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#freelance">Projects</Nav.Link>
             <Nav.Link href={resume} target="_blank">Resumé</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -1,43 +1,38 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import './About.css';
-import { Container, Row, Col} from 'react-bootstrap';
 
 const About = () => {
     return (
         <Container id="about" fluid>
             <Row className="about-container">
-                <Col className="about-col" md={{ span: 7 }}>
+                <Col className="about-col" md={{ span: 6, offset: 1 }}>
                     <h3>About</h3>
                     <p>
-                    I am a self-taught developer specializing in JavaScript, React, Redux, and React-Native. Most of my learning has been through building and deploying apps, pushing to GitHub and getting peer code reviews on LinkedIn.
-                    <br/><br/>
-                    Because of my contagious enthusiasm and passion for learning, I was chosen as a 2019 LinkedIn Top Voice for Web Development. I love the daily challenges of web development: writing quality code, learning new technologies, and solving complex problems.
-                    <br/><br/>
-                    I have been continuing to learn through freelance opportunities. A Squarespace site using Mailchimp and a React-Native app for sharing videos. I look forward to working on a team that is passionate about their product.
+                    I am a self-taught developer specializing in JavaScript, React, and React-Native. <br></br>I love writing quality code, learning new technologies, and solving complex problems.
+                    </p>
+                    <p>
+                    Interested in learning how to code? Check out my ebook <a href="https://marthasharpe.gumroad.com/l/teach-yourself-to-code" target="blank">Teach Yourself to Code</a>
+                    </p>
+                    <p>
+                    I also share my coding journey and do live coding challenges on my <a href="https://www.youtube.com/channel/UCqL_YXyK5g7rr4MmhqVCAGA" target="blank">YouTube channel</a>
                     </p>
                 </Col>
-                <Col className="about-col" md={{ span: 4, offset: 1 }}>
+                <Col className="about-col" md={{ span: 4 }}>
                     <h3>Skills</h3>
-                    <ul>
-                        <li>Primary Experience:</li>
                             <ul>
                                 <li>JavaScript</li>
+                                <li>TypeScript</li>
                                 <li>React</li>
-                                <li>Redux</li>
                                 <li>React-Native</li>
+                                <li>Redux</li>
                                 <li>Git/GitHub</li>
-                            </ul>
-                            <br/>
-                        <li>Secondary Experience:</li>
-                            <ul>
-                                <li>RESTful APIs</li>
+                                <li>REST APIs</li>
+                                <li>GraphQL</li>
                                 <li>Node.js</li>
                                 <li>Express.js</li>
                                 <li>MongoDB</li>
-                                <li>FireBase</li>
-                                <li>Bootstrap and derivatives</li>
                             </ul>
-                    </ul>
                 </Col>
             </Row>
         </Container>
