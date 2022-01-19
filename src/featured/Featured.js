@@ -8,7 +8,7 @@ const Featured = () => {
     const featuredProjects = projectData.filter(project => project.featured)
 
     return (
-        <Container id="freelance" className="featured-container" fluid>
+        <Container id="projects" className="featured-container" fluid>
             <h2 className="title">Projects</h2>
             <Carousel projects={featuredProjects}/>
         </Container>
