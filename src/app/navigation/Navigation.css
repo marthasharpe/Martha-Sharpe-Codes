@@ -1,0 +1,12 @@
+.nav-container {
+  padding-bottom: 4rem;
+}
+
+.social-link {
+  color: rgb(120, 120, 120);
+  margin: 1rem;
+}
+  
+.social-link:hover {
+  color: rgb(200, 200, 200);
+}
